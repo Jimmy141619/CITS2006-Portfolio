@@ -1,0 +1,54 @@
+# A6: Discover Cryptographic Implementation Used Offline
+
+## **Overview**
+
+This activity examines a cryptographic implementation used offline. Cryptography is not only used for securing online communication but also for protecting data stored on devices.
+
+---
+
+## Cryptographic Implementation: Full Disk Encryption (BitLocker / FileVault)
+
+* Full disk encryption is used to protect data stored on a device such as a laptop or desktop.
+* Examples include BitLocker (Windows) and FileVault (macOS).
+
+---
+
+## How It Works
+
+* Data on the device is encrypted using cryptographic algorithms.
+* Access to the data requires authentication (e.g., password or PIN).
+* Without the correct credentials, the data remains unreadable.
+
+---
+
+## Security Features
+
+* **Confidentiality:** Protects stored data from unauthorized access
+* **Data Protection:** Ensures sensitive files cannot be accessed if the device is lost or stolen
+* **Encryption:** Uses strong cryptographic algorithms (e.g., AES)
+
+---
+
+## Example
+
+* A laptop with BitLocker enabled ensures that even if the device is stolen, the data cannot be accessed without the correct login credentials.
+
+---
+
+## Weaknesses
+
+* Weak passwords can compromise security
+* If encryption keys are lost, data may become permanently inaccessible
+* Does not protect against attacks when the device is already unlocked
+
+---
+
+## Conclusion
+
+Offline cryptographic implementations such as full disk encryption are essential for protecting stored data. They provide strong security against physical theft and unauthorized access, but rely on proper key management and user practices.
+
+---
+
+## Evidence
+
+(Screenshot of device encryption settings to be added)
