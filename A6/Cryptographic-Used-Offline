@@ -47,8 +47,4 @@ This activity examines a cryptographic implementation used offline. Cryptography
 
 Offline cryptographic implementations such as full disk encryption are essential for protecting stored data. They provide strong security against physical theft and unauthorized access, but rely on proper key management and user practices.
 
----
 
-## Evidence
-
-(Screenshot of device encryption settings to be added)
