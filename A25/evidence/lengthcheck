@@ -1,0 +1,21 @@
+from getpass import getpass
+
+def login():
+    username = input("Enter username: ").strip()
+    password = getpass("Enter password: ")
+
+    if len(username) < 3:
+        print("Username too short")
+        return
+
+    if len(password) < 8:
+        print("Password too short")
+        return
+
+    print("\nLogin accepted.")
+    print("Only essential data was collected and processed temporarily.")
+
+    username = None
+    password = None
+
+login()
