@@ -49,6 +49,4 @@ Cryptography in modern networks, such as VPN encryption using IPsec and TLS, pla
 
 ---
 
-## Evidence
 
-(Screenshot of VPN connection or network settings to be added)
