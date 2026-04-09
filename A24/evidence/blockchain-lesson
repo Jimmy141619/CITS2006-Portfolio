@@ -1,0 +1,22 @@
+Blockchain and Its Role in Cybersecurity
+
+Blockchain is a type of digital technology used to securely record and store information. It works as a distributed ledger, meaning data is stored across many computers instead of a single central system. This makes it more secure and resistant to tampering.
+
+At its core, a blockchain is made up of blocks of data that are linked together in a chain. Each block contains a set of transactions, a timestamp, and a unique cryptographic hash. The hash acts like a digital fingerprint, ensuring that if any data in the block is changed, the hash will also change. Because each block is linked to the previous one, altering one block would require changing all subsequent blocks, which is extremely difficult.
+
+One of the key features of blockchain is decentralisation. Unlike traditional systems that rely on a central authority (such as a bank), blockchain networks are maintained by multiple participants. This removes single points of failure and reduces the risk of attacks.
+
+Another important concept is immutability. Once data is added to the blockchain, it cannot be easily modified or deleted. This ensures data integrity and makes blockchain useful for applications where trust and accuracy are critical.
+
+Blockchain also relies heavily on cryptography. Transactions are secured using encryption and digital signatures, which verify the identity of users and protect data from unauthorised access. This is why blockchain is often associated with secure systems such as cryptocurrencies.
+
+In terms of cybersecurity, blockchain helps by:
+
+Preventing data tampering
+Improving transparency and traceability
+Reducing reliance on centralised systems
+Enhancing trust between users
+
+However, blockchain is not completely risk-free. Issues such as poor implementation, weak user security, and smart contract vulnerabilities can still create risks.
+
+Overall, blockchain is a powerful technology that improves security through decentralisation, cryptography, and data integrity. It plays an increasingly important role in modern cybersecurity systems.
