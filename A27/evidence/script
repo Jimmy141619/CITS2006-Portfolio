@@ -1,0 +1,57 @@
+# A27: Vulnerable Login System (No Validation)
+
+def login():
+    print("=== Vulnerable Login ===")
+
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
+    # No validation at all (vulnerability)
+    if username and password:
+        print("\nAccess granted (no checks!)")
+    else:
+        print("\nAccess denied")
+
+login()
+
+
+
+Improved Login System (With Validation)
+
+def login():
+    print("=== Secure Login ===")
+
+    username = input("Enter username: ").strip()
+    password = input("Enter password: ")
+
+    # Rule 1: username must not be empty
+    if not username:
+        print("Error: Username cannot be empty")
+        return
+
+    # Rule 2: password must be at least 8 characters
+    if len(password) < 8:
+        print("Error: Password must be at least 8 characters long")
+        return
+
+    # Rule 3: password must contain a number
+    if not any(char.isdigit() for char in password):
+        print("Error: Password must contain at least one number")
+        return
+
+    print("\nAccess granted (validated input)")
+
+
+    ## Vulnerability Demonstration
+
+A vulnerable login system was implemented that accepts any non-empty username and password without validation. This demonstrates a system vulnerability, as attackers can gain access without meeting any security requirements.
+
+## Improved System
+
+A second version of the system was implemented with input validation rules, including minimum password length and required numeric characters. This reduces the risk of weak credentials and improves overall security.
+
+## Key Difference
+
+The first system lacks validation and is vulnerable to misuse, while the second system applies security controls to enforce stronger authentication practices.
+
+login()
